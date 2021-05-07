@@ -1,0 +1,72 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.signupPage, .loginPage {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.loginForm, .signupForm {
+  margin: 1% auto;
+  width: 10em;
+  text-align: center;
+  position: relative;
+  -webkit-animation: moveDown .3s;
+  -moz-animation: moveDown .3s;
+  animation: moveDown .3s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.productsList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  /* flex-direction: column; */
+  margin: 2% auto;
+
+}
+.singleProduct {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  /* flex-direction: column; */
+  padding: 40px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.thumbnail {
+  width: 110%;
+  height: 120%;
+}
+
+.cart {
+  height: 19px;
+  width: 19px;
+}
+
+.singleProductContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2%;
+}
+
+.productImage {
+
+  height: 150px;
+  width: 150px;
+}
+
+.productName {
+  margin-top: 40px;
+}
